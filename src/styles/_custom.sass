@@ -29,3 +29,27 @@ span
   &.color-acento-botones
     color: $color-acento-botones
     font-weight: bold
+.subtitulo
+  position: relative
+  border-radius: 20px
+  border-right: 7px solid $color-acento-contenido
+  background-color: $color-secundario
+  padding: .7rem
+  display: inline-block
+  h3
+    color: white
+    margin-bottom: 0
+    margin-left: 2rem
+    margin-right: 1rem
+  &::before
+    content: url('../assets/curso/temas/subtitulo.svg')
+    position: absolute
+    top: 0
+    left: 0
+    width: 0
+    height: 0
+    transform: translate(-50%, -50%)
+.mb-negative
+  margin-bottom: -1rem
+.mn
+  margin: 0 -3rem
