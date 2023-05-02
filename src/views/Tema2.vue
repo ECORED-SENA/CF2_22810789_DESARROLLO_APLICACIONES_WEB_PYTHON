@@ -140,17 +140,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.bg-tema2
-  &__1
-    background-image: url('../assets/curso/temas/tema2/f1.svg')
-    background-repeat: no-repeat
-    background-size: cover
-    background-position: center
-.bg-tema1
-  &__1
-    background-image: url('../assets/curso/temas/tema1/f1.svg')
-    background-repeat: no-repeat
-    background-size: cover
-    background-position: center
-</style>
+<style lang="sass"></style>
