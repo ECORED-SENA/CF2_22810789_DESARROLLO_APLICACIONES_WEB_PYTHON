@@ -95,7 +95,83 @@
         p.mb-0 Esta entidad debe participar en una interrelación que ayuda a identificarla. Es importante tener en cuenta que la entidad débil tiene una dependencia funcional con otra entidad de la base de datos y está estrechamente relacionada con la conexión de las llaves que esta pueda tener, es decir, depende de la existencia de otra entidad, la cual comparte con la misma la conexión de información registrada regularmente. Esta situación se da entre llaves primarias y foráneas donde el valor de la primaria debe coincidir completamente con el valor almacenado en la llave foránea.
     p.mb-5(data-aos='fade-right') 
       span.color-secundario Observe la representación de las entidades, a continuación, a través de un ejemplo:
-
+    ImagenInfografica.color-acento-botones.mb-5.d-lg-block.d-none
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/temas/tema5/15.svg', alt='Texto que describa la imagen')
+      .tarjeta.p-3(x="40.7%" y="53%" numero="+" style="background-color: #CDE6FF ")
+        .h5.mb-2 Dos entidades
+        p Se tienen dos entidades: una llamada “Persona” y otra llamada “Sexo”.
+          br
+          |(Una débil y una fuerte) 
+      .tarjeta.p-3(x="29.7%" y="59.5%" numero="+" style="background-color: #CDE6FF ")
+        .h5.mb-2 Persona
+        p La representación de la entidad débil es  a través de un recuadro con doble línea.
+      .tarjeta.p-3(x="61%" y="63%" numero="+" style="background-color: #CDE6FF ")
+        .h5.mb-2 Sexo
+        p La entidad Sexo es una entidad fuerte, ya que carece de una llave foránea, es decir, no tiene dependencia de ninguna otra entidad o valor de entidad.
+      .tarjeta.p-3(x="29.7%" y="87%" numero="+" style="background-color: #CDE6FF ")
+        .h5.mb-2 Sexo_Persona
+        p La entidad “Persona” tiene dependencia con la entidad “Sexo” a través del atributo Sexo_Persona, ya que la entidad “Sexo” le proporciona este dato a la entidad “Persona”, dependiendo de esta asignación para poder realizar este registro.
+      .tarjeta.p-3(x="65.7%" y="30%" numero="+" style="background-color: #CDE6FF ")
+        .h5.mb-2 Codigo
+        p (Igual que todos los demás que están en círculos) 
+    ImagenInfografica.color-acento-botones.mb-5.d-lg-none.d-block
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/temas/tema5/16.svg', alt='Texto que describa la imagen')
+      .tarjeta.p-3(x="34.2%" y="83%" numero="+" style="background-color: #CDE6FF ")
+        .h5.mb-2 Sexo
+        p La entidad Sexo es una entidad fuerte, ya que carece de una llave foránea, es decir, no tiene dependencia de ninguna otra entidad o valor de entidad.
+      .tarjeta.p-3(x="71.1%" y="57.2%" numero="+" style="background-color: #CDE6FF ")
+        .h5.mb-2 Sexo_Persona
+        p La entidad “Persona” tiene dependencia con la entidad “Sexo” a través del atributo Sexo_Persona, ya que la entidad “Sexo” le proporciona este dato a la entidad “Persona”, dependiendo de esta asignación para poder realizar este registro.
+      .tarjeta.p-3(x="49.7%" y="64.8%" numero="+" style="background-color: #CDE6FF ")
+        .h5.mb-2 Codigo
+        p (Igual que todos los demás que están en círculos) 
+    .cajon-b.color-primario.arriba-derecha.p-3.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          p.mb-0 Otro de los conceptos para tener en cuenta es el de atributo, los atributos son cada una de las propiedades o características que tiene un tipo de entidad o un tipo de relación. Toman valores de uno o varios dominios que representan las características de la entidad, y estos, en el momento de realizar el registro de la información, se convierten en los datos que se solicitan, aunque es importante tener en cuenta que los atributos tienen diferentes tipos de datos, por lo cual, se hace necesario suministrar la información de acuerdo con este tipo de situaciones.
+        .col-2(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/17.svg', alt='' style="width: 100px") 
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 11
+          br
+          span.fst-italic Atributos 
+        img(src='@/assets/curso/temas/tema5/18.png', alt='Texto que describa la imagen' class="img-fluid" data-aos='fade-left')
+    p.mb-5(data-aos='fade-right')
+      span.color-primario Dentro del modelo relacional, se pueden encontrar atributos multivaluados y también opcionales, observe:
+    .row.justify-content-center.mb-5
+      .col-lg-4.mb-lg-0.mb-3
+        .tarjeta.bg-tema4__2.p-4.h-100
+          img(src="../assets/curso/temas/tema5/19.svg", alt="tema4-4" style="width: 77px").mb-4
+          h4 Atributo multivaluado
+          p.mb-0 Atributos de una entidad que pueden tener más de un valor.
+      .col-lg-4.mb-lg-0.mb-3
+        .tarjeta.bg-tema4__2.p-4.h-100
+          img(src="../assets/curso/temas/tema5/20.svg", alt="tema4-4" style="width: 77px").mb-4
+          h4 Atributo optativo
+          p.mb-0 Aquel que puede admitir valores nulos.
+      .col-lg-4.mb-lg-0.mb-3
+        .tarjeta.bg-tema4__2.p-4.h-100
+          img(src="../assets/curso/temas/tema5/21.svg", alt="tema4-4" style="width: 77px").mb-4
+          h4 Atributo identificador
+          p.mb-0 Uno o más campos cuyos valores son únicos en cada ejemplar de una entidad y deben distinguir a cada ejemplar que utiliza el modelo, teniendo en cuenta que todos los ejemplares de una entidad deben tener el mismo identificador.
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3
+        p Un atributo es importante aun cuando no tenga entidad concreta asociada, entonces se trata de una entidad y no de un atributo.
+        .tarjeta.color-secundario.p-4.mb-4
+          .row.justify-content-center.align-items-center
+            .col-lg-2.col-4(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/9.svg', alt='')
+            .col-lg-10
+              p.text-white.mb-0 Los atributos y tablas son componentes que le dan vida y razón de ser a la base de datos, estos permiten organizar la estructura de la base de datos de manera correcta. 
+        p No es posible dejar de lado que los atributos de una entidad reflejan la cantidad de datos que esta recibe, la longitud y tipo de dato que es compatible con el mismo; es decir, si un atributo tiene como tipo de dato entero o int, no se podrán almacenar caracteres ni ningún tipo de dato diferente en el mismo. 
+          br
+          br
+          |Cabe destacar que, si el tipo de dato utilizado en el atributo es de tipo texto, caracter o varchar, este permitirá almacenar cualquier tipo de dato que se requiera, solo que es necesario ilustrar la cantidad de datos que tiene para poder indicarle al usuario cómo debe ingresar los datos de manera correcta.
+      .col-lg-5.col-6: img(src='@/assets/curso/temas/tema5/22.png', alt='Texto que describa la imagen' class="img-fluid" data-aos='fade-left')
 </template>
 
 <script>

@@ -274,15 +274,4 @@ export default {
   background-repeat: no-repeat
   background-position: initial
   background-size: cover
-.bg-tema4
-  &__2
-      img
-        width: 50px
-      background-image: url('../assets/curso/temas/tema4/f1.svg')
-      background-repeat: no-repeat
-      background-size: 100%
-      background-position: center
-      transition: background-image 0.5s ease-in-out
-      &:hover
-        background-image: url('../assets/curso/temas/tema4/f2.svg')
 </style>

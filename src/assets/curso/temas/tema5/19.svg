@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76.999" height="76.999" viewBox="0 0 76.999 76.999">
+  <g id="Grupo_1022444" data-name="Grupo 1022444" transform="translate(-204 -4062)">
+    <path id="Trazado_734791" data-name="Trazado 734791" d="M38.5,0A38.5,38.5,0,1,1,0,38.5,38.5,38.5,0,0,1,38.5,0Z" transform="translate(204 4062)" fill="#362b9e"/>
+    <g id="atributos" transform="translate(222.013 4079.614)">
+      <path id="XMLID_1235_" d="M0,.434H12.456V12.89H0Z" transform="translate(0 0)" fill="#fff48f"/>
+      <circle id="XMLID_1197_" cx="1.834" cy="1.834" r="1.834" transform="translate(4.393 4.827)" fill="#bdf052"/>
+      <path id="XMLID_264_" d="M179.86.434h26.376V12.89H179.86Z" transform="translate(-165.263 0)" fill="#ffe37e"/>
+      <path id="XMLID_1201_" d="M0,175.262H12.456v12.456H0Z" transform="translate(0 -160.639)" fill="#fff48f"/>
+      <circle id="XMLID_1179_" cx="1.834" cy="1.834" r="1.834" transform="translate(4.393 19.016)" fill="#ff636e"/>
+      <path id="XMLID_262_" d="M179.86,175.262h26.376v12.456H179.86Z" transform="translate(-165.263 -160.639)" fill="#ffe37e"/>
+      <path id="XMLID_199_" d="M0,350.939H12.456v12.456H0Z" transform="translate(0 -322.058)" fill="#fff48f"/>
+      <g id="Grupo_1022433" data-name="Grupo 1022433" transform="translate(27.785 0.434)">
+        <path id="XMLID_661_" d="M342.352,350.939H355.54v12.456H342.352Z" transform="translate(-342.352 -322.492)" fill="#fdd854"/>
+        <path id="XMLID_580_" d="M342.352,175.262H355.54v12.456H342.352Z" transform="translate(-342.352 -161.073)" fill="#fdd854"/>
+        <path id="XMLID_565_" d="M342.352.434H355.54V12.89H342.352Z" transform="translate(-342.352 -0.434)" fill="#fdd854"/>
+      </g>
+      <path id="XMLID_783_" d="M76.736.434h6.228V12.89H76.736Z" transform="translate(-70.508 0)" fill="#fdd854"/>
+      <path id="XMLID_751_" d="M76.736,175.262h6.228v12.456H76.736Z" transform="translate(-70.508 -160.639)" fill="#fdd854"/>
+      <path id="XMLID_113_" d="M76.736,350.939h6.228v12.456H76.736Z" transform="translate(-70.508 -322.058)" fill="#fdd854"/>
+      <circle id="XMLID_1165_" cx="1.834" cy="1.834" r="1.834" transform="translate(4.393 33.274)" fill="#87c7ff"/>
+      <path id="XMLID_118_" d="M179.86,350.939h26.376v12.456H179.86Z" transform="translate(-165.263 -322.058)" fill="#ffe37e"/>
+      <path id="XMLID_569_" d="M342.352,350.939H355.54v12.456H342.352Z" transform="translate(-314.567 -322.058)" fill="#fdd854"/>
+      <path id="XMLID_1161_" d="M304.285,62.17h6.179V64.6h-6.179Z" transform="translate(-279.589 -56.726)" fill="#afb4c8"/>
+      <path id="XMLID_1160_" d="M304.285,237h6.179v2.435h-6.179Z" transform="translate(-279.589 -217.365)" fill="#afb4c8"/>
+      <path id="XMLID_1159_" d="M304.285,411.827h6.179v2.435h-6.179Z" transform="translate(-279.589 -378.005)" fill="#afb4c8"/>
+      <path id="XMLID_660_" d="M342.352,411.827h3.09v2.435h-3.09Z" transform="translate(-314.567 -378.005)" fill="#7e8596"/>
+      <path id="XMLID_114_" d="M342.352,237h3.09v2.435h-3.09Z" transform="translate(-314.567 -217.365)" fill="#7e8596"/>
+      <path id="XMLID_566_" d="M342.352,62.17h3.09V64.6h-3.09Z" transform="translate(-314.567 -56.726)" fill="#7e8596"/>
+      <path id="XMLID_115_" d="M76.736,405.073v3.669a1.834,1.834,0,0,0,0-3.669Z" transform="translate(-70.508 -371.799)" fill="#4a98f7"/>
+      <path id="XMLID_116_" d="M76.736,229.4v3.669a1.834,1.834,0,0,0,0-3.669Z" transform="translate(-70.508 -210.38)" fill="#f03049"/>
+      <path id="XMLID_117_" d="M76.736,54.567v3.669a1.834,1.834,0,0,0,0-3.669Z" transform="translate(-70.508 -49.74)" fill="#93d632"/>
+    </g>
+  </g>
+</svg>
