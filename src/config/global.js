@@ -32,44 +32,44 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: '',
+        titulo: 'Conceptos de bases de datos',
         desarrolloContenidos: true,
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: '',
+        titulo: 'Manejo de sentencias DML',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: '',
+        titulo: 'Manejo de sentencias SQL',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: '',
+        titulo: 'Modelado de datos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: '',
+        titulo: 'Tablas y atributos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: '',
+        titulo: 'Modelo relacional',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: '',
+        titulo: 'Diagrama entidad-relación',
         desarrolloContenidos: true,
       },
     ],
@@ -115,26 +115,65 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Manejo de sentencias SQL',
+      referencia:
+        'Chávez, J. (2016). 7 video consultas en phpMyAdmin con sql [Video]. YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=fHU0lY3FqB0&ab_channel=J%C3%B3seLuisCh%C3%A1vezG%C3%B3mez',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Modelo relacional',
+      referencia:
+        'Coronado, D., Rodríguez, R., Tineo, L. y Carrasquel, S. (2018). Gestión de Datos Difusos: Atributos Tipo 2 y Tipo 3 en bases de datos relacionales. Publicaciones en Ciencias y Tecnología, 12(2), p. 83-95.',
+      tipo: 'Artículo',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_b4db22235526430295652b34b49ad6dd',
+    },
+    {
+      tema: 'Modelo relacional',
+      referencia:
+        'Aragón, Y., González, C., Hernández, O. y Hernández, E. (2018). Herramienta para el aprendizaje de bases de datos relacionales. Revista Cubana De Ciencias Informáticas, 12(3), p. 163-176.',
+      tipo: 'Artículo',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_c58ddc9f05b247f8aa014947f4cf730b',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Atributo',
+      significado:
+        'son características de las entidades que permiten asignar un nombre, longitud y tipo a la misma y reflejan la información que se suministra a la base de datos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Base de datos',
+      significado:
+        'es una estructura de almacenamiento de información permanente y organizada, que permite insertar, actualizar, buscar y eliminar datos con facilidad.',
+    },
+    {
+      termino: 'Cardinalidad',
+      significado:
+        'son las restricciones que tienen las relaciones de las entidades en la base de datos.',
+    },
+    {
+      termino: 'DDL',
+      significado:
+        'significa lenguaje de definición de datos y se utiliza para crear la estructura principal de la base de datos, tales como las tablas y las relaciones.',
+    },
+    {
+      termino: 'DML',
+      significado:
+        'significa lenguaje de manipulación de datos y permite realizar la inserción, actualización y eliminación de datos en una base de datos.',
+    },
+    {
+      termino: 'Entidad',
+      significado:
+        'es un componente de la base de datos que permite el almacenamiento de la información que se le suministra a la base de datos.',
+    },
+    {
+      termino: 'Modelo entidad-relación',
+      significado:
+        'es un esquema que refleja la manera como están relacionados los datos dentro de la base de datos.',
     },
   ],
   referencias: [
