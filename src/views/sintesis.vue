@@ -3,8 +3,13 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p Las bases de datos son esa alternativa esencial en las empresas para el manejo y procesamiento de información, por su capacidad de almacenamiento casi ilimitada y posibilidades de realizar los procesos de actualización y búsqueda de información con una velocidad y precisión casi perfectas.
+      br
+      br
+      |Por lo cual, al hablar de sistemas de almacenamiento y modelado de datos, se hace referencia expresamente a ellas, a sus elementos constitutivos y a las sentencias, modelos y diagramas que se desplegarán a través de estas.
+      br
+      br
+      span.color-primario A continuación, una síntesis de lo visto en este componente: 
 
     .row.justify-content-center
       .col-lg-10.mb-5
