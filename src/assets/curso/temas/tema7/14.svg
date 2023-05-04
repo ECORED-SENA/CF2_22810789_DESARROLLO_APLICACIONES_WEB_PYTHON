@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="77" viewBox="0 0 77 77">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.066" y1="0.063" x2="0.77" y2="0.857" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="letra-d" transform="translate(-6 -6)">
+    <path id="Trazado_741674" data-name="Trazado 741674" d="M38.5,0A38.5,38.5,0,1,1,0,38.5,38.5,38.5,0,0,1,38.5,0Z" transform="translate(6 6)" fill="#362b9e"/>
+    <path id="Trazado_741672" data-name="Trazado 741672" d="M190.953,154.851l-24.444-24.445a21.217,21.217,0,0,0-15.024-5.66H135.123v40.425l18.283,18.284c.111,0,.221,0,.332,0A38.515,38.515,0,0,0,190.953,154.851Z" transform="translate(-109.238 -100.459)" opacity="0.49" fill="url(#linear-gradient)"/>
+    <path id="Trazado_741673" data-name="Trazado 741673" d="M172.353,144.93c0,11.8-8.663,20.246-20.869,20.246H135.123V124.751h16.361C163.724,124.751,172.353,133.117,172.353,144.93Zm-11.417,0c0-6-3.99-9.98-9.976-9.98h-4.65v20.027h4.65C156.946,154.977,160.936,150.894,160.936,144.93Z" transform="translate(-109.238 -100.463)" fill="#fff"/>
+  </g>
+</svg>

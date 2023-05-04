@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="77" viewBox="0 0 77 77">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.104" y1="0.103" x2="0.822" y2="0.819" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="letra-c" transform="translate(-5.998 -5.999)">
+    <circle id="Elipse_7835" data-name="Elipse 7835" cx="38.5" cy="38.5" r="38.5" transform="translate(5.998 5.999)" fill="#362b9e"/>
+    <path id="Trazado_741670" data-name="Trazado 741670" d="M178.308,146.567l-22.521-22.52a20.562,20.562,0,0,0-14.831-5.936c-12.3,0-21.493,9.109-21.493,21.268a21.016,21.016,0,0,0,5.995,15l22.7,22.7A38.538,38.538,0,0,0,178.308,146.567Z" transform="translate(-95.991 -94.846)" opacity="0.49" fill="url(#linear-gradient)"/>
+    <path id="Trazado_741671" data-name="Trazado 741671" d="M140.957,160.579c-12.3,0-21.493-9.109-21.493-21.2,0-12.159,9.189-21.267,21.493-21.267,10.595,0,18.8,6.993,20.442,17.242H150.116a9.559,9.559,0,0,0-9.135-6.837c-5.724,0-9.922,4.6-9.922,10.862,0,6.235,4.2,10.771,9.922,10.771a9.3,9.3,0,0,0,9.144-7.415h11.391c-1.537,10.629-9.791,17.844-20.558,17.844Z" transform="translate(-95.991 -94.846)" fill="#fff"/>
+  </g>
+</svg>
