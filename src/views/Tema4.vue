@@ -8,7 +8,7 @@
       h1 Modelado de datos
     .bg-1.p-5.mn
       .row.justify-content-center.mb-5
-        .col-lg-2.col-6(data-aos="fade-right"): img(src="../assets/curso/temas/tema4/1.svg", alt="tema4-1")
+        .col-lg-2.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src="../assets/curso/temas/tema4/1.svg", alt="tema4-1")
         .col-lg-10(data-aos="fade-left")
           p.mb-3 Un modelo de datos es un lenguaje orientado a hablar de una base de datos. Típicamente, un modelo de datos permite describir las estructuras de datos de la base, el tipo de los datos que hay en la base y la forma en que se relacionan. 
           .tarjeta.color-secundario.p-4
@@ -19,11 +19,11 @@
         span.fst-italic Modelado de datos
       .row.justify-content-center.mb-5
         .col-lg-8
-          img(src="../assets/curso/temas/tema4/2.svg", alt="tema4-2")
+          img(src="../assets/curso/temas/tema4/2.svg", alt="La imagen muestra como se realiza el modelado de una entidad de la base de datos llamada Persona, la cual tiene los atributos: ID, Nombre, Contacto, Correo, Dirección.")
       p.mb-5(data-aos='fade-right') Como se puede observar en la imagen, se realiza el modelado de una entidad de la base de datos llamada Persona, la cual tiene los atributos: ID, Nombre, Contacto, Correo, Dirección. 
       .row.justify-content-center.mb-5
         .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
-          .tarjeta.bg-tema1__1.p-5
+          .tarjeta.bg-tema1__1.p-5.mb-lg-0.mb-4
             p.ms-4.mb-0 Cada uno de estos campos permite establecer la información que se le solicita al cliente, y luego se establecen como los datos que se almacenan en la base de datos; cada campo de estos establece una característica que determina la información completa de la entidad, es decir, los agrega a todos dentro de un mismo espacio de almacenamiento.
           p El modelado de bases de datos es una técnica muy importante en el ámbito del desarrollo de software, ya que permite conocer la distribución de los datos que se encuentran en la base de datos; también establece la cantidad de datos a solicitar al usuario y, adicionalmente a ello, qué tipo de datos se solicitarán, los cuales pueden variar de acuerdo con las necesidades de almacenamiento que se tengan en el momento.
             br
@@ -86,7 +86,7 @@
             h5 Figura 9
             br
             span.fst-italic  Relación de entidades
-          img(src="../assets/curso/temas/tema4/7.svg", alt="tema4-5" style="width: 100%")
+          img(src="../assets/curso/temas/tema4/7.svg", alt="La imagen muestra las entidades, relaciones y atributos que componen la estructura de la base de datos. Las entidades se muestran como cuadros o rectángulos, las relaciones se indican mediante líneas y los atributos se especifican dentro de las entidades." style="width: 100%")
       .row.justify-content-center.mb-5
         .col-lg-1.col-4(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/8.svg', alt='')
         .col-lg-11 
@@ -104,7 +104,7 @@
     .cajon-b.color-primario.arriba-derecha.p-3.mb-5
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-10
-            p.mb-0 El modelo de datos físicos representa cómo se construirá el modelo en la base de datos. Un modelo de base de datos física muestra todas las estructuras de tabla, incluidos el nombre de columna, el tipo de datos de columna, las restricciones de columna, la clave principal, la clave externa y las relaciones entre las tablas.
+            p.mb-0.mb-lg-0.mb-3 El modelo de datos físicos representa cómo se construirá el modelo en la base de datos. Un modelo de base de datos física muestra todas las estructuras de tabla, incluidos el nombre de columna, el tipo de datos de columna, las restricciones de columna, la clave principal, la clave externa y las relaciones entre las tablas.
               br
               br
               span.color-primario El modelo físico de datos cuenta con características, etapas y funciones, las cuales se observan a continuación:
@@ -114,7 +114,7 @@
       .col-lg-8
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Características").justify-content-center.align-items-center
-            .col-md-7.mb-4.mb-md-0
+            .col-md-7.mb-2.mb-md-0
               ul.lista-ul--color
                 li
                   i.fas.fa-check
@@ -127,11 +127,11 @@
                 li
                   i.fas.fa-check
                   | La desnormalización puede ocurrir según los requisitos del usuario.
-            .col-md-3
+            .col-md-3.col-6
               figure
                 img(src='@/assets/curso/temas/tema4/11.svg', alt='Texto que describa la imagen')
           .row(titulo="Etapas").justify-content-center.align-items-center
-            .col-md-7.mb-4.mb-md-0
+            .col-md-7.mb-2.mb-md-0
               ul.lista-ul--color
                 li
                   i.fas.fa-check
@@ -148,11 +148,11 @@
                 li
                   i.fas.fa-check
                   | Modificar el modelo de datos físicos en función de las restricciones / requisitos físicos.
-            .col-md-3
+            .col-md-3.col-6
               figure
                 img(src='@/assets/curso/temas/tema4/12.svg', alt='Texto que describa la imagen')
           .row(titulo="Funciones").justify-content-center.align-items-center
-            .col-md-7.mb-4.mb-md-0
+            .col-md-7.mb-2.mb-md-0
               ul.lista-ul--color
                 li
                   i.fas.fa-check
@@ -184,7 +184,7 @@
                 li
                   i.fas.fa-check
                   | Proporcionar herramientas para administrar la base de datos.
-            .col-md-3
+            .col-md-3.col-6
               figure
                 img(src='@/assets/curso/temas/tema4/13.svg', alt='Texto que describa la imagen')
     p.mb-5(data-aos='fade-right')

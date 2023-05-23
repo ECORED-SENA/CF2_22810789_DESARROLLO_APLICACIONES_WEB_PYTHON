@@ -31,7 +31,7 @@
             h5 Figura 2 
             br
             span.fst-italic  Comando Insert
-          img(src='@/assets/curso/temas/tema2/3.png', alt='')
+          img(src='@/assets/curso/temas/tema2/3.png', alt='La imagen muestra una captura de pantalla del comando INSERT en una base de datos SQL. En la interfaz, se puede observar la sintaxis del comando INSERT utilizado para insertar nuevos registros en una tabla específica')
       p.mb-5(data-aos='fade-right') Como se puede observar, en la imagen se aprecia el uso de la instrucción #[em insert], la cual consta de la siguiente estructura: inicialmente, se llama al comando que permite crear el nuevo registro, llamado #[em insert]; luego, la palabra into, que indica dónde se va a colocar el nuevo registro; seguido del nombre de la tabla de la base de datos donde se insertarán los datos, acompañado de los campos de la tabla que se afectarán en el registro; luego, la palabra values, que significa valores a insertar, acompañada del orden especifico de cómo se insertarán los datos en la tabla. Como se puede observar, primero se coloca el valor 1, que se guardará en el campo PKID, y luego, ‘Masculino’, que se guardará en el campo Nombre. #[span.color-primario Es importante tener en cuenta que están separados por coma cada dato a insertar; adicionalmente, se debe tener en cuenta que los valores numéricos no llevan comillas, mientras que los valores caracter sí deben llevar comillas en este caso.]
       .row.justify-content-center.mb-5
         .col-lg-7
@@ -62,7 +62,7 @@
             h5 Figura 3
             br
             span.fst-italic Actualización de registros
-          img(src='@/assets/curso/temas/tema2/7.png', alt='')
+          img(src='@/assets/curso/temas/tema2/7.png', alt='La imagen muestra una captura de pantalla de la actualización de registros en una base de datos SQL')
       .cajon-b.color-primario.arriba-derecha.p-3.mb-5
         .row.justify-content-center.align-items-center
           .col-lg-10
@@ -77,7 +77,7 @@
             h5 Figura 4
             br
             span.fst-italic Comando Update
-          img(src='@/assets/curso/temas/tema2/9.png', alt='')
+          img(src='@/assets/curso/temas/tema2/9.png', alt='La imagen muestra una captura de pantalla de la actualización de registros en una base de datos SQL. En la interfaz, se visualiza la sintaxis del comando UPDATE utilizado para modificar datos existentes en una tabla específica. El comando UPDATE permite actualizar los valores de una o varias columnas en los registros seleccionados según una condición especificada.')
       p.mb-5(data-aos='fade-right') Como se puede observar, hay que ubicarse en la pestaña SQL para ejecutar el comando de actualización del registro de la tabla, procediendo a actualizar el nombre de la persona registrada, con la condición del documento de identidad que se refleja en el campo PKID, ya que este es el valor de campo que no se repite y es único para cada registro, procediendo a presionar el botón #[span.color-primario Continuar], en la parte inferior, para ejecutar la estructura de comandos y obteniendo el siguiente resultado:
       .row.justify-content-center.mb-5
         .col-lg-8
@@ -85,7 +85,7 @@
             h5 Figura 5
             br
             span.fst-italic Comando Update
-          img(src='@/assets/curso/temas/tema2/10.png', alt='')
+          img(src='@/assets/curso/temas/tema2/10.png', alt='La imagen muestra una captura de pantalla de la actualización de registros en una base de datos SQL, se pueden observar los nombres de las columnas y los nuevos valores que se están asignando.')
       p.mb-5(data-aos='fade-right') Como se puede observar en las imágenes anteriores, se ve el comportamiento de la actualización del registro de la base de datos con el nuevo nombre que se le ha asignado.
       .tarjeta.color-secundario.p-4.mb-5
         .row.justify-content-center.align-items-center
@@ -111,7 +111,7 @@
             h5 Figura 6
             br
             span.fst-italic Eliminar un dato de la Base de Datos
-          img(src='@/assets/curso/temas/tema2/13.png', alt='')
+          img(src='@/assets/curso/temas/tema2/13.png', alt='En la imagen se puede observar la sintaxis del comando DELETE FROM utilizado para eliminar un dato o registros específicos de una tabla en la base de datos')
       p.mb-5(data-aos='fade-right') Como se puede evidenciar, se ha utilizado el comando Delete para realizar la eliminación del registro de la base de datos.
         br
         br

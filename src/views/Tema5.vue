@@ -14,12 +14,12 @@
         p.mb-0 Las tablas, también llamadas entidades, son el espacio donde se almacena la información que registran los usuarios en un sistema de información.
     p.mb-5(data-aos='fade-right') Las tablas se dividen en los diferentes campos que convierten la información que suministra el usuario a través de los diversos canales de información. Se debe tener en cuenta que las tablas se conforman por atributos que, a su vez, permiten determinar:
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-lg-4.mb-lg-0.mb-3
         .tarjeta.rounded-3.bg-tema1__1.h-100.p-3
           .d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/tema5/2.svg', alt='')
             p.fw-bold.mb-0.ms-3 El tipo de dato
-      .col-lg-4
+      .col-lg-4.mb-lg-0.mb-3
         .tarjeta.rounded-3.bg-tema1__1.h-100.p-3
           .d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/tema5/3.svg', alt='')
@@ -40,7 +40,7 @@
           h5 Figura 10 
           br
           span.fst-italic Estructura de una tabla o entidad 
-        img(src='@/assets/curso/temas/tema5/5.png', alt='' style="width: 100%")
+        img(src='@/assets/curso/temas/tema5/5.png', alt='La imagen muestra la estructura de una tabla o entidad en una base de datos SQL. Se presentan las columnas de la tabla, junto con sus respectivos nombres y tipos de datos. Cada columna representa un atributo o campo de la entidad, y su tipo de dato define el tipo de información que puede almacenar.' style="width: 100%")
     p.mb-5(data-aos='fade-right') En la anterior imagen, se puede observar la estructura de una tabla o entidad de bases de datos, la cual, en este caso, tiene varios atributos con tipos de datos específicos, los cuales almacenarán la información suministrada por el usuario.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -116,19 +116,21 @@
       .tarjeta.p-3(x="65.7%" y="30%" numero="+" style="background-color: #CDE6FF ")
         .h5.mb-2 Codigo
         p (Igual que todos los demás que están en círculos) 
-    ImagenInfografica.color-acento-botones.mb-5.d-lg-none.d-block
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema5/16.svg', alt='Texto que describa la imagen')
-      .tarjeta.p-3(x="34.2%" y="83%" numero="+" style="background-color: #CDE6FF ")
-        .h5.mb-2 Sexo
-        p La entidad Sexo es una entidad fuerte, ya que carece de una llave foránea, es decir, no tiene dependencia de ninguna otra entidad o valor de entidad.
-      .tarjeta.p-3(x="71.1%" y="57.2%" numero="+" style="background-color: #CDE6FF ")
-        .h5.mb-2 Sexo_Persona
-        p La entidad “Persona” tiene dependencia con la entidad “Sexo” a través del atributo Sexo_Persona, ya que la entidad “Sexo” le proporciona este dato a la entidad “Persona”, dependiendo de esta asignación para poder realizar este registro.
-      .tarjeta.p-3(x="49.7%" y="64.8%" numero="+" style="background-color: #CDE6FF ")
-        .h5.mb-2 Codigo
-        p (Igual que todos los demás que están en círculos) 
+    .row.justify-content-center.mb-5
+      .col-7
+        ImagenInfografica.color-acento-botones.mb-5.d-lg-none.d-block
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema5/16.svg', alt='Texto que describa la imagen')
+          .tarjeta.p-3(x="34.2%" y="83%" numero="+" style="background-color: #CDE6FF ")
+            .h5.mb-2 Sexo
+            p La entidad Sexo es una entidad fuerte, ya que carece de una llave foránea, es decir, no tiene dependencia de ninguna otra entidad o valor de entidad.
+          .tarjeta.p-3(x="71.1%" y="57.2%" numero="+" style="background-color: #CDE6FF ")
+            .h5.mb-2 Sexo_Persona
+            p La entidad “Persona” tiene dependencia con la entidad “Sexo” a través del atributo Sexo_Persona, ya que la entidad “Sexo” le proporciona este dato a la entidad “Persona”, dependiendo de esta asignación para poder realizar este registro.
+          .tarjeta.p-3(x="49.7%" y="64.8%" numero="+" style="background-color: #CDE6FF ")
+            .h5.mb-2 Codigo
+            p (Igual que todos los demás que están en círculos) 
     .cajon-b.color-primario.arriba-derecha.p-3.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-10

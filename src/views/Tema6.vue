@@ -46,7 +46,7 @@
             h5 Figura 12
             br
             span.fst-italic Modelo relacional
-          img(src='@/assets/curso/temas/tema6/4.svg', alt='').mb-3
+          img(src='@/assets/curso/temas/tema6/4.svg', alt='La imagen muestra un diagrama del modelo relacional de una base de datos SQL. En el diagrama, se representan las tablas y las relaciones entre ellas utilizando símbolos y líneas. Cada tabla se muestra con sus respectivos atributos y claves primarias, mientras que las relaciones se indican mediante líneas que conectan las tablas y especifican la cardinalidad y la integridad referencial.').mb-3
           figcaption.bg-white Nota. Adaptado de Araneda (2020).
       p.mb-5(data-aos='fade-right')
         span.color-primario Observe a continuación, a través de un video, cómo se llega al modelo relacional:

@@ -20,7 +20,7 @@
             h5 Figura 7
             br
             span.fst-italic Tabla con registros 
-          img(src='@/assets/curso/temas/tema3/2.png', alt='')
+          img(src='@/assets/curso/temas/tema3/2.png', alt='La imagen muestra una captura de pantalla de una tabla de registros de una base de datos SQL. En la interfaz, se visualizan los datos almacenados en una tabla específica. Cada columna representa un atributo o campo, mientras que cada fila corresponde a un registro individual.')
       p.mb-5(data-aos='fade-right') Como se puede observar, se tiene una tabla y, de acuerdo con esta información, se van a ejecutar las instrucciones SQL para recuperar los datos, teniendo en cuenta la secuencia que estos deben seguir para realizar dichos procesos; observe cómo:
       .tarjeta.bg-slyder.p-5
         SlyderA(tipo='b')

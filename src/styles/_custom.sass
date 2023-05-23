@@ -69,26 +69,39 @@ span
   margin: 0 -3rem
 .bg-tema2
   &__1
-    background-image: url('../assets/curso/temas/tema2/f1.svg')
-    background-repeat: no-repeat
-    background-size: cover
-    background-position: center
+    background-color: #CDE6FF
+    overflow: hidden
+    position: relative
+    &:before
+      content: url('../assets/curso/temas/icon2.svg')
+      position: absolute
+      top: 0
+      left: -50px
+      transform: translateY(50%)
+
 .bg-tema1
   &__1
-    background-image: url('../assets/curso/temas/tema1/f1.svg')
-    background-repeat: no-repeat
-    background-size: cover
-    background-position: center
+    background-color: #D5CEF8
+    overflow: hidden
+    position: relative
+    &:before
+      content: url('../assets/curso/temas/icon1.svg')
+      position: absolute
+      top: 0
+      left: -50px
+      transform: translateY(50%)
 .acordion__activo
   background-color: #D6EAFF !important
 .bg-tema4
   &__2
     background-image: url('../assets/curso/temas/tema4/f1.svg')
     background-repeat: no-repeat
-    background-size: 100%
+    background-size: cover
     background-position: center
     transition: background-image 0.5s ease-in-out
     &:hover
       background-image: url('../assets/curso/temas/tema4/f2.svg')
     img
       width: 50px
+.cajon-b.color-primario:before
+  background-color: rgba( $color-primario, 0.4)

@@ -26,24 +26,24 @@
           p Se denomina entidad a todo ente (conceptual o físico) del cual se desea establecer su participación dentro de un sistema de información. Una entidad concreta o física es aquella con existencia física, representa un objeto del mundo real (persona o elemento). Una entidad abstracta no tiene una representación física concreta (posición laboral, asignatura).
         .col-md-3
           figure
-            img(src='@/assets/curso/temas/tema7/3.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema7/3.svg', alt='')
       .row(titulo="Atributo")
         .col-md-9.mb-4.mb-md-0
           p El atributo es un elemento de información que caracteriza a una entidad, identificándola, calificándola, cuantificándola, o declarando su estado. Por lo general, una entidad se compone de uno o más atributos (edad, genero, estatura, nombre, etc.). Los atributos permiten diferenciar elementos dentro de un conjunto de entidades. Dentro de una entidad de tipo persona, es muy raro el caso que existan dos con exactamente los mismos atributos.
         .col-md-3
           figure
-            img(src='@/assets/curso/temas/tema7/4.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema7/4.svg', alt='')
       .row(titulo="Relaciones")
         .col-md-9.mb-4.mb-md-0
           p Las relaciones identifican la interacción que existe entre dos o más entidades. Establecen el comportamiento del sistema de información. 
         .col-md-3
           figure
-            img(src='@/assets/curso/temas/tema7/5.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema7/5.svg', alt='')
     .f7.p-5.mn.pb-2 
       p #[span.color-primario Los elementos básicos de MER] se presentan en un diagrama simple, que permite establecer en forma general un modelo de datos. Observe, entonces, cuáles son estos elementos fundamentales del MER:
       .row.justify-content-center.mb-5
         .col-lg-8
-          img(src='@/assets/curso/temas/tema7/6.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema7/6.png', alt='La imagen muestra los elementos básicos de un diagrama entidad-relación (DER). En el diagrama, se pueden identificar las entidades representadas como rectángulos, los atributos como ovalos, las relaciones entre entidades mediante líneas.')
       p Un ejemplo de uso sería el siguiente:
       .row.justify-content-center.mb-5
         .col-lg-8
@@ -51,7 +51,7 @@
             h5 Figura 12 
             br
             span.fst-italic  Ejemplo MER
-          img(src='@/assets/curso/temas/tema7/7.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema7/7.png', alt='La imagen muestra un ejemplo de un Modelo Entidad-Relación (MER). En el diagrama, se pueden identificar las entidades representadas como rectángulos, las relaciones entre las entidades mediante líneas y los atributos de las entidades dentro de los ovalos. ')
       .subtitulo.mb-3
         h3 Modelamiento lógico
       .cajon-b.color-primario.arriba-derecha.p-3.mb-5
@@ -131,7 +131,7 @@
           h5 Figura 14
           br
           span.fst-italic Ejemplo Cardinalidad 
-        img(src='@/assets/curso/temas/tema7/10.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/tema7/10.png', alt='La imagen muestra un ejemplo de cardinalidad en un diagrama entidad-relación, se pueden observar los símbolos de cardinalidad, como 1 y N, que indican una relación de uno a muchos. Esto significa que una instancia de una entidad se relaciona con varias instancias de la otra entidad. La cardinalidad es un aspecto importante en el diseño de bases de datos, ya que ayuda a definir las restricciones y las interrelaciones entre las entidades en un sistema.')
     p.mb-5(data-aos='fade-right') Las expresiones que pueden indicarse a partir de estos 4 diagramas son:
     .f7.mn.p-5
       .row.justify-content-center.mb-5
@@ -155,12 +155,12 @@
       .row.justify-content-center.mb-5
         .col-lg-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figurqa 15 
+            h5 Figura 15 
             br
             span.fst-italic Ejemplo Cardinalidad
-          img(src='@/assets/curso/temas/tema7/15.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema7/15.png', alt='La imagen muestra un ejemplo de cardinalidad en un diagrama entidad-relación, se pueden observar los símbolos de cardinalidad, como 1 y N, que indican una relación de uno a muchos. Esto significa que una instancia de una entidad se relaciona con varias instancias de la otra entidad. La cardinalidad es un aspecto importante en el diseño de bases de datos, ya que ayuda a definir las restricciones y las interrelaciones entre las entidades en un sistema.')
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-1.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema7/16.svg', alt='Texto que describa la imagen')
+        .col-lg-1.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema7/16.svg', alt='')
         .col-lg-11
           p Una vez ya se han visto reflejados los datos dentro de un sistema de bases de datos real, en este caso, se está utilizando el motor de base de datos MySQL. 
             br
@@ -169,10 +169,10 @@
       .row.justify-content-center.mb-5
         .col-lg-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figurqa 16 
+            h5 Figura  16 
             br
             span.fst-italic Ejemplo Sistema de bases de datos
-          img(src='@/assets/curso/temas/tema7/17.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema7/17.png', alt='La imagen muestra un ejemplo de un Sistema de Bases de Datos, también se visualizan las bases de datos, representadas como recuadros, que contienen las tablas y los registros que conforman el sistema.')
       p.mb-5(data-aos='fade-right') Como se puede observar en la imagen anterior, se visualiza la forma en cómo está distribuida la información con las diferentes entidades que hacen parte de esta.
       .row.justify-content-center.mb-5
         .col-lg-7.mb-lg-0.mb-3
@@ -182,7 +182,7 @@
               .col-lg-2.col-4(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/9.svg', alt='')
               .col-lg-10
                 p.text-white.mb-0 En pocas palabras, si se van a relacionar 2 entidades y una tiene la llave de tipo int y la otra de tipo varchar, no se podrá realizar la conexión de las entidades, ya que estas tienen como restricción el tipo de dato y longitud para poder realizar el proceso de conexión de manera correcta. 
-        .col-lg-5.col-8: img(src='@/assets/curso/temas/tema7/18.png', alt='Texto que describa la imagen')
+        .col-lg-5.col-8: img(src='@/assets/curso/temas/tema7/18.png', alt='')
       
 </template>
 

@@ -29,27 +29,27 @@
           h5 Figura 1
           br
           span.fst-italic Estructura Base de Datos
-        img(src='@/assets/curso/temas/tema1/3.png', alt='') 
+        img(src='@/assets/curso/temas/tema1/3.png', alt='La imagen muestra una captura de pantalla de una estructura de bases de datos. En la interfaz, se visualizan las tablas y relaciones que componen la base de datos. Las tablas representan entidades o conceptos dentro del sistema y contienen columnas que representan los atributos de cada entidad.') 
     p.mb-5(data-aos='fade-right')
       span.color-primario En este caso, los campos que se observan son 5:
     .row.justify-content-center.align-items-center.mb-2
-      .col-lg-3
+      .col-lg-3.mb-lg-0.mb-3
         .tarjeta.rounded-3.bg-tema1__2.h-100.p-3
           .d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/tema1/4.svg', alt='')
             p.fw-bold.mb-0.ms-3  PKID
-      .col-lg-3
+      .col-lg-3.mb-lg-0.mb-3
         .tarjeta.rounded-3.bg-tema1__2.h-100.p-3
           .d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/tema1/5.svg', alt='')
             p.fw-bold.mb-0.ms-3  Nombre
-      .col-lg-3
+      .col-lg-3.mb-lg-0.mb-3
         .tarjeta.rounded-3.bg-tema1__2.h-100.p-3
           .d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/tema1/6.svg', alt='')
             p.fw-bold.mb-0.ms-3  Contacto
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-lg-3.mb-lg-0.mb-3
         .tarjeta.rounded-3.bg-tema1__2.h-100.p-3
           .d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/tema1/7.svg', alt='')
@@ -69,23 +69,23 @@
       br
       span.color-primario Los datos más conocidos y utilizados en los sistemas de bases de datos son los siguientes: 
     .row.justify-content-center.align-items-center.mb-2
-      .col-lg-3
+      .col-lg-3.mb-lg-0.mb-3
         .tarjeta.rounded-3.bg-tema1__2.h-100.p-3
           .d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/tema1/10.svg', alt='')
             p.fw-bold.mb-0.ms-3  Varchar
-      .col-lg-3
+      .col-lg-3.mb-lg-0.mb-3
         .tarjeta.rounded-3.bg-tema1__2.h-100.p-3
           .d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/tema1/11.svg', alt='')
             p.fw-bold.mb-0.ms-3  Int
-      .col-lg-3
+      .col-lg-3.mb-lg-0.mb-3
         .tarjeta.rounded-3.bg-tema1__2.h-100.p-3
           .d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/tema1/12.svg', alt='')
             p.fw-bold.mb-0.ms-3  Date 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-lg-3.mb-lg-0.mb-3
         .tarjeta.rounded-3.bg-tema1__2.h-100.p-3
           .d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/tema1/13.svg', alt='')
@@ -139,11 +139,7 @@ export default {
 
 <style lang="sass">
 .bg-tema1
-  &__1
-    background-image: url('../assets/curso/temas/tema1/f1.svg')
-    background-repeat: no-repeat
-    background-size: 100%
-    background-position: center
+
   &__2
     img
       width: 50px
