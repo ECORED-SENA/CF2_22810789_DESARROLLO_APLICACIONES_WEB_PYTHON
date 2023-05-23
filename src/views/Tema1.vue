@@ -11,13 +11,14 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-5
-        p.mb-0 Las bases de datos se han convertido en la alternativa esencial en las empresas para el manejo y procesamiento de información, ya que estas tienen una capacidad de almacenamiento casi ilimitada y realizan los procesos de actualización y búsqueda de información con una velocidad y precisión casi perfecta.
+        p.mb-0 Las bases de datos se han convertido en la alternativa esencial en las empresas para el manejo y procesamiento de información, ya que estas tienen una capacidad de almacenamiento casi ilimitada y realizan los procesos de actualización y búsqueda de información con una velocidad y precisión casi perfecta. 
     p.mb-5(data-aos='fade-right')
-      span.color-primario Observe el siguiente video para comprender un poco mejor este importante tema:       
+      span.color-primario El siguiente video amplía esta temática:      
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    p.mb-5(data-aos='fade-right') Las bases de datos proponen un estilo de almacenamiento de la información que se encuentra distribuido en filas y columnas. Este estilo de organización permite que la información se distribuya de tal manera que su crecimiento se realice de manera vertical. De esta manera, los datos siempre tendrán un crecimiento incremental: #[span.color-primario entre mayor cantidad de filas contenga la base de datos, mayor cantidad de datos e información se verán reflejados en la misma.]
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/TG-a63FEdzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption.mt-2 Video. Conceptos base de datos
+    p.mb-5(data-aos='fade-right') Las bases de datos proponen un estilo de almacenamiento de la información que se encuentra distribuido en filas y columnas. Este estilo de organización permite que la información se distribuya de tal manera que su crecimiento se realice de forma vertical. Es así como los datos siempre incrementarán: #[span.color-primario entre mayor cantidad de filas contenga la base de datos, mayor cantidad de datos e información se verán reflejados en la misma.]
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         .tarjeta.bg-tema1__1.p-5.h-100
@@ -63,7 +64,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-2.col-4(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/9.svg', alt='')
         .col-lg-10
-          p.text-white.mb-0 Estos campos corresponden a los datos que se le solicitan al cliente y que luego pasan a ser parte de las filas del almacenamiento de la información en la base de datos. Es importante tener en cuenta que la misma debe contar con algo denominado llave primaria, la cual evita que un registro que se realice previamente se pueda repetir en la base de datos, evitando así duplicidad de la información; para nuestro caso de ejemplo, la llave primaria es PKID, que corresponde al número de identificación de la persona registrada. 
+          p.text-white.mb-0 Estos campos corresponden a los datos que se le solicitan al cliente y que luego pasan a ser parte de las filas del almacenamiento de la información en la base de datos. Esta debe contar con algo denominado llave primaria, la cual evita que un registro que se realizó previamente se pueda repetir en la base de datos, evitando así duplicidad de la información; para el caso de ejemplo, la llave primaria es PKID, que corresponde al número de identificación de la persona registrada. 
     p.mb-5(data-aos='fade-right') Es importante que también tengamos en cuenta que las bases de datos están conformadas por tablas, las cuales requieren que cada una de sus columnas (llamadas campos) reciban un tipo de dato específico que se almacene en él.
       br
       br

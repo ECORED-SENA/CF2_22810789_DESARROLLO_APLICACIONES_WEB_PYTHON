@@ -121,7 +121,7 @@ export default {
     {
       tema: 'Manejo de sentencias SQL',
       referencia:
-        'Chávez, J. (2016). 7 video consultas en phpMyAdmin con sql [Video]. YouTube.',
+        'Chávez, J. (2016). <em>7 video consultas en phpMyAdmin con sql</em> [Video]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=fHU0lY3FqB0&ab_channel=J%C3%B3seLuisCh%C3%A1vezG%C3%B3mez',
@@ -129,7 +129,7 @@ export default {
     {
       tema: 'Modelo relacional',
       referencia:
-        'Coronado, D., Rodríguez, R., Tineo, L. y Carrasquel, S. (2018). Gestión de Datos Difusos: Atributos Tipo 2 y Tipo 3 en bases de datos relacionales. Publicaciones en Ciencias y Tecnología, 12(2), p. 83-95.',
+        'Coronado, D., Rodríguez, R., Tineo, L. y Carrasquel, S. (2018). Gestión de Datos Difusos: Atributos Tipo 2 y Tipo 3 en bases de datos relacionales. <em>Publicaciones en Ciencias y Tecnología</em>, 12(2), p. 83-95.',
       tipo: 'Artículo',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_b4db22235526430295652b34b49ad6dd',
@@ -137,7 +137,7 @@ export default {
     {
       tema: 'Modelo relacional',
       referencia:
-        'Aragón, Y., González, C., Hernández, O. y Hernández, E. (2018). Herramienta para el aprendizaje de bases de datos relacionales. Revista Cubana De Ciencias Informáticas, 12(3), p. 163-176.',
+        'Aragón, Y., González, C., Hernández, O. y Hernández, E. (2018). Herramienta para el aprendizaje de bases de datos relacionales. <em>Revista Cubana De Ciencias Informáticas</em>, 12(3), p. 163-176.',
       tipo: 'Artículo',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_c58ddc9f05b247f8aa014947f4cf730b',
@@ -182,8 +182,10 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Araneda, P. (2020). <em>Base de Datos. El Camino de los datos a la información.</em> Bookdown.',
+      link:
+        'ttps://bookdown.org/paranedagarcia/database/modelamiento-de-datos.html',
     },
   ],
   creditos: [
@@ -195,20 +197,36 @@ export default {
           cargo: 'Líder del equipo',
           centro: 'Dirección General',
         },
-        {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
-        },
       ],
     },
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Dulfran Antonio Montaño Montaño',
+          cargo: 'Experto Temático',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Zvi Daniel Grosman Landáez',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Asesor Metodológico',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo Desarrollo Curricular',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrector de Estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
     },
@@ -216,19 +234,52 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Fabian Zarate',
           cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Camilo Bolaño',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Zuleidy María Ruíz Torres ',
+          cargo: 'Validación audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey ',
+          cargo: 'Locución ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres ',
+          cargo: 'Ilustración ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Mary Jeans Palacio Camacho ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta ',
+          cargo: 'Validación Contenido ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

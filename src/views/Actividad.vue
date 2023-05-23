@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(icono="fas fa-tasks" titulo="Actividad didáctica")
+  BannerInterno(icono="fas fa-question-circle" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
@@ -10,14 +10,14 @@
             img(src="@/assets/template/seleccion_multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Conceptos de bases de datos
+          h2 Sistemas de almacenamiento y modelado de datos
         p.mb-4 Validar la conceptualización sobre sistemas de almacenamiento y modelado de datos aplicados al desarrollo de aplicativos, teniendo en cuenta la implementación de las bases de datos en su desarrollo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Opción multiple
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 

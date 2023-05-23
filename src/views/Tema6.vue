@@ -11,7 +11,7 @@
       .row.justify-content-center.mb-5
         .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
           .tarjeta.p-4.mb-3(style="background-color: #D5CEF8 ")
-            p La primera tabla es una tabla de información del cliente, por lo que cada registro incluye el nombre, la dirección, la información de envío y facturación, el número de teléfono y otra información de contacto. Cada bit de información (cada atributo) está en su propia columna y la base de datos asigna un ID único (una clave) a cada fila. 
+            p La primera tabla es una tabla de información del cliente, por lo que cada registro incluye el nombre, la dirección, la información de envío y facturación, el número de teléfono y otra información de contacto. Cada #[em bit] de información (cada atributo) está en su propia columna y la base de datos asigna un ID único (una clave) a cada fila. 
               br
               br
               | En la segunda tabla, una tabla del pedido del cliente, cada registro incluye el ID del cliente que realizó el pedido, el producto solicitado, la cantidad, el tamaño y el color seleccionados, etcétera, pero no el nombre o la información de contacto del cliente.
@@ -49,10 +49,11 @@
           img(src='@/assets/curso/temas/tema6/4.svg', alt='La imagen muestra un diagrama del modelo relacional de una base de datos SQL. En el diagrama, se representan las tablas y las relaciones entre ellas utilizando símbolos y líneas. Cada tabla se muestra con sus respectivos atributos y claves primarias, mientras que las relaciones se indican mediante líneas que conectan las tablas y especifican la cardinalidad y la integridad referencial.').mb-3
           figcaption.bg-white Nota. Adaptado de Araneda (2020).
       p.mb-5(data-aos='fade-right')
-        span.color-primario Observe a continuación, a través de un video, cómo se llega al modelo relacional:
+        span.color-primario El siguiente video expone cómo se llega al modelo relacional:
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/m-GvcEHn4R4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. ¿Cómo nace el modelo relacional? 
     .subtitulo.mb-3
       h3 Modelo relacional y coherencia de datos
     p.mb-5(data-aos='fade-right') El modelo relacional es el mejor para mantener la consistencia de los datos en todas las aplicaciones y copias de la base de datos (denominadas instancias). 

@@ -17,8 +17,8 @@
           br
           |El MER consiste en representar, a nivel conceptual, los datos que soportan el funcionamiento de un sistema y sus componentes básicos son: Entidades, Atributos y Relaciones. 
         .tarjeta.bg-tema2__1.px-3.py-4.mb-3
-            p.mb-0.ms-5 Las entidades representan abstracciones con atributos que almacenan datos; las relaciones son las asociaciones que existen entre entidades y permiten generar información al combinar diferentes entidades.
-        p Hasta este momento ya se ha dado una introducción a estos componentes básicos, pero para profundizar podrá ver un poco más sobre su conceptualización:
+            p.mb-0.ms-5 Las entidades representan abstracciones con atributos que almacenan datos; las relaciones son las asociaciones que existen entre entidades y permiten generar información al combinarse entre sí.
+        p Hasta este momento ya se ha dado una introducción a estos componentes básicos, pero para profundizar se amplía sobre su conceptualización a continuación:
       .col-lg-5.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema7/2.png', alt='')
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Entidad")
@@ -40,7 +40,7 @@
           figure
             img(src='@/assets/curso/temas/tema7/5.svg', alt='')
     .f7.p-5.mn.pb-2 
-      p #[span.color-primario Los elementos básicos de MER] se presentan en un diagrama simple, que permite establecer en forma general un modelo de datos. Observe, entonces, cuáles son estos elementos fundamentales del MER:
+      p #[span.color-primario Los elementos básicos de MER] se presentan en un diagrama simple, que permite establecer en forma general un modelo de datos, tal como se ejemplifica en la imagen:
       .row.justify-content-center.mb-5
         .col-lg-8
           img(src='@/assets/curso/temas/tema7/6.png', alt='La imagen muestra los elementos básicos de un diagrama entidad-relación (DER). En el diagrama, se pueden identificar las entidades representadas como rectángulos, los atributos como ovalos, las relaciones entre entidades mediante líneas.')
@@ -76,46 +76,46 @@
             tr
               td 
                 ul.lista-ul--color
-                  li
+                  li.d-flex
                     i.fas.fa-check
-                    | Incluye todas las entidades y relaciones entre ellos.
+                    p.mb-0 Incluye todas las entidades y relaciones entre ellos.
 
-                  li
+                  li.d-flex
                     i.fas.fa-check
-                    | Todos los atributos para cada entidad están especificados.
+                    p.mb-0 Todos los atributos para cada entidad están especificados.
 
-                  li.fw-bold
+                  li.d-flex.fw-bold
                     i.fas.fa-check
-                    | La clave principal para cada entidad está especificada.
+                    p.mb-0 La clave principal para cada entidad está especificada.
 
-                  li.fw-bold
+                  li.d-flex.fw-bold
                     i.fas.fa-check
-                    | Se especifican las claves externas (claves que identifican la relación entre diferentes entidades).
+                    p.mb-0 Se especifican las claves externas (claves que identifican la relación entre diferentes entidades).
 
-                  li.fw-bold
+                  li.d-flex.fw-bold
                     i.fas.fa-check
-                    | La normalización ocurre en este nivel.
+                    p.mb-0 La normalización ocurre en este nivel.
               td.fw-bold 
                 ul.lista-ul--color
-                  li
+                  li.d-flex
                     i.fas.fa-check
-                    | Especifique claves primarias para todas las entidades.
+                    p.mb-0 Especifique claves primarias para todas las entidades.
 
-                  li
+                  li.d-flex
                     i.fas.fa-check
-                    | Encuentre las relaciones entre diferentes entidades.
+                    p.mb-0 Encuentre las relaciones entre diferentes entidades.
 
-                  li
+                  li.d-flex
                     i.fas.fa-check
-                    | Encuentre todos los atributos para cada entidad.
+                    p.mb-0 Encuentre todos los atributos para cada entidad.
 
-                  li
+                  li.d-flex
                     i.fas.fa-check
-                    | Resuelva las relaciones de muchos a muchos.
+                    p.mb-0 Resuelva las relaciones de muchos a muchos.
 
-                  li
+                  li.d-flex
                     i.fas.fa-check
-                    | Normalización.
+                    p.mb-0 Normalización.
     .subtitulo.mb-5
       h3 Cardinalidad
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
@@ -181,7 +181,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-2.col-4(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/9.svg', alt='')
               .col-lg-10
-                p.text-white.mb-0 En pocas palabras, si se van a relacionar 2 entidades y una tiene la llave de tipo int y la otra de tipo varchar, no se podrá realizar la conexión de las entidades, ya que estas tienen como restricción el tipo de dato y longitud para poder realizar el proceso de conexión de manera correcta. 
+                p.text-white.mb-0 En pocas palabras, si se van a relacionar 2 entidades y una tiene la llave de tipo int y la otra de tipo varchar, no se podrá realizar la conexión de las entidades, ya que estas tienen como restricción el tipo de dato y longitud para poder realizar el proceso de conexión de manera correcta.
         .col-lg-5.col-8: img(src='@/assets/curso/temas/tema7/18.png', alt='')
       
 </template>

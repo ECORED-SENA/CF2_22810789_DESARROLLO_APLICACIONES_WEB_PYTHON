@@ -11,11 +11,11 @@
       .row.justify-content-center.mb-5
           .col-lg-7
             .tarjeta.bg-tema2__1.px-3.py-4.mb-3
-              p.mb-0.ms-5 Una sentencia SQL también se puede comparar con una expresión ordenada que solicita información de manera específica de un sistema de almacenamiento, donde se indican las columnas o datos que se desean extraer y visualizar al usuario que requiere la información; algo que es considerable dentro del uso de las sentencias SQL es la manera en cómo la información se solicita y los resultados que se esperan al realizar estas operaciones.
+              p.mb-0.ms-5 Una sentencia SQL también se puede comparar con una expresión ordenada que solicita información de manera específica de un sistema de almacenamiento, donde se indican las columnas o datos que se desean extraer y visualizar al usuario que requiere la información. Algo que es considerable dentro del uso de las sentencias SQL es la forma en cómo la información se solicita y los resultados que se esperan al realizar estas operaciones.
             p.mb-0(data-aos='fade-right') Se debe ser muy específico cuando estas se realizan. Dentro de las sentencias SQL, se encuentran varios comandos que acompañan las instrucciones y que permiten que la información pueda ser mucho más precisa y entendible para el usuario. A continuación, se observa una tabla de bases de datos con información y se ejecutan varias sentencias SQL para recuperar información de manera ordenada y precisa: 
           .col-lg-5(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/1.png', alt='')
       .row.justify-content-center.mb-5
-        .col-lg-8
+        .col-lg-12
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 7
             br
@@ -27,14 +27,14 @@
           .row
             .col-md-7.mb-4.mb-md-0
               h4 Mostrar el nombre del producto y categoría de todos los que se encuentran registrados.
-              p #[span.fw-bold.fst-italic Select NombreProducto, Categoría from tbl_productos]
+              p #[span.fw-bold.fst-italic select NombreProducto, Categoría from tbl_productos]
                 br
                 br 
                 |Se recibe la información acerca de un producto que se necesita. En la misma, se encuentra la cantidad, tiempo y aplicación.
 
                 br
                 br 
-                |Como podemos observar en la consulta anterior, vemos la aplicación de la sentencia SQL que permite recuperar el nombre y categoría de los productos registrados en la tabla llamada “tbl_productos”. En este caso, si en la necesidad el usuario requiere realizar dicho registro, este comando le permite solo recuperar dichos datos de los registros de la base de datos.
+                |Una sentencia SQL también se puede comparar con una expresión ordenada que solicita información de manera específica de un sistema de almacenamiento, donde se indican las columnas o datos que se desean extraer y visualizar al usuario que requiere la información. Algo que es considerable dentro del uso de las sentencias SQL es la forma en cómo la información se solicita y los resultados que se esperan al realizar estas operaciones.
             .col-md-5
               figure
                 img(src='@/assets/curso/temas/tema3/3.png', alt='Texto que describa la imagen')
@@ -44,17 +44,18 @@
               p #[span.fw-bold.fst-italic Select NombreProducto, IdProducto, PrecioUnidad from tbl_productos where UnidadesEnExistencia >= 10 and UnidadesEnExistencia <= 50]
                 br
                 br
-                |Como podemos observar en la imagen, vemos cómo se devuelve el resultado solicitado a través de la instrucción SQL. Recordemos que estas instrucciones deben ser precisas al momento de solicitar la información, ya que si no indicamos cuáles son los resultados que deseamos mostrarle al usuario, no se verán de la manera que se necesita, por eso, es importante que se especifique bien la información que se requiere en este sentido particular.
+                |Una sentencia SQL también se puede comparar con una expresión ordenada que solicita información de manera específica de un sistema de almacenamiento, donde se indican las columnas o datos que se desean extraer y visualizar al usuario que requiere la información. Algo que es considerable dentro del uso de las sentencias SQL es la forma en cómo la información se solicita y los resultados que se esperan al realizar estas operaciones.
             .col-md-5
               figure
                 img(src='@/assets/curso/temas/tema3/4.png', alt='Texto que describa la imagen')
           .row
             .col-md-7.mb-4.mb-md-0
               h4 Contar cuáles son los productos que se encuentran en la categoría de Bebidas y que su existencia esté dentro de 20 a 80, mostrar su id, nombre de producto, existencias, precio, proveedor y existencias.
-              p #[span.fst-italic.fw-bold Select IdProducto,NombreProducto,UnidadesEnExistencia,PrecioUnidad,Proveedor, UnidadesEnExistencia from tbl_productos where Categoría = 'Bebidas' and (UnidadesEnExistencia >=20 and UnidadesEnExistencia <=80)]
+              p #[span.fst-italic.fw-bold Select IdProducto,NombreProducto,UnidadesEnExistencia,<br> PrecioUnidad,Proveedor,<br> UnidadesEnExistencia from tbl_productos where Categoría = 'Bebidas' <br> and (UnidadesEnExistencia >=20 and UnidadesEnExistencia <=80)]
                 br
                 br
-                |En el resultado se especifica cada uno de los datos solicitados por el usuario, los cuales cumplen con el criterio de búsqueda solicitado dentro de la sentencia SQL. Los resultados presentados reflejan la solicitud explícita del usuario por la visualización de los mismos. Ahora bien, todo lo que se encuentra delante de la instrucción select y detrás de la instrucción from son los datos y encabezados que se visualizarán para el usuario en la instrucción SQL, por lo tanto, todos los campos que se soliciten en este apartado son los que serán visibles para el usuario una vez se ejecute la consulta SQL.
+                | En el resultado se especifica cada uno de los datos solicitados por el usuario, los cuales cumplen con el criterio de búsqueda dentro de la sentencia SQL. Los resultados presentados reflejan la solicitud explícita del usuario por la visualización de los mismos. Ahora bien, todo lo que se encuentra delante de la instrucción #[em select] y detrás de la instrucción #[em from] son los datos y encabezados que se visualizarán para el usuario en la instrucción SQL, por lo tanto, todos los campos que se soliciten en este apartado son los que serán visibles para el usuario una vez se ejecute la consulta SQL.
+
             .col-md-5
               figure
                 img(src='@/assets/curso/temas/tema3/5.png', alt='Texto que describa la imagen')
@@ -65,8 +66,9 @@
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         .tarjeta.color-secundario.p-4
-          p.mb-0.text-white Es en esta última donde se codifican estos componentes; en pocas palabras, en el Back-End, existe una parte que permite la conexión con un sistema de bases de datos y recopila la información que solicita el usuario; este proceso es llevado a cabo a través de los comandos SQL, tal y como se ha observado en este tema en particular; en este caso, el usuario solicita la información interactuando con los componentes que el sistema tiene y luego este, al conectarse con la base de datos, solicita esta información a través de los comandos SQL, a la vez que estos devuelven al programa la información resultante solicitada por el usuario, siendo, desde este punto de vista, importante el estudio del lenguaje SQL, para poder comprender cómo la información llega desde el servidor de bases de datos a la pantalla del usuario mostrando la información que este requiere ver.
+          p.mb-0.text-white "Ahora bien, en este punto, se puede cuestionar: ¿estos comandos en qué aportan a los sistemas de información? Pues hay que entender que el sistema de información se encuentra compuesto por varios componentes, uno de ellos llamado #[em Front-End], que es toda la parte visual con la que interactúa el usuario; luego, existe un componente llamado #[em Back-End], el cual define cuál es la lógica que se debe implementar en el sistema para que este cumpla las operaciones que requiere el usuario que el sistema realice; es en esta última donde se codifican estos componentes.
       .col-lg-5: img(src='@/assets/curso/temas/tema3/7.png', alt='')
+    p.mb-5(data-aos='fade-right') En pocas palabras, en el #[em Back-End], existe una parte que permite la conexión con un sistema de bases de datos y recopila la información que solicita el usuario; este proceso es llevado a cabo a través de los comandos SQL. Dicho de otra forma, el usuario solicita la información interactuando con los componentes que el sistema tiene y luego este, al conectarse con la base de datos, solicita esta información a través de los comandos SQL, a la vez que estos devuelven al programa la información resultante solicitada por el usuario; siendo lo anterior, desde este punto de vista, relevante el estudio del lenguaje SQL, para poder comprender cómo la información llega desde el servidor de bases de datos a la pantalla del usuario mostrando la información que este requiere ver.
 
 </template>
 
