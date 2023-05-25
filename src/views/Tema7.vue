@@ -41,6 +41,10 @@
             img(src='@/assets/curso/temas/tema7/5.svg', alt='')
     .f7.p-5.mn.pb-2 
       p #[span.color-primario Los elementos básicos de MER] se presentan en un diagrama simple, que permite establecer en forma general un modelo de datos, tal como se ejemplifica en la imagen:
+      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        h5 Figura 12
+        br
+        span.fst-italic Elementos básicos Diagrama Entidad  Relación.
       .row.justify-content-center.mb-5
         .col-lg-8
           img(src='@/assets/curso/temas/tema7/6.png', alt='La imagen muestra los elementos básicos de un diagrama entidad-relación (DER). En el diagrama, se pueden identificar las entidades representadas como rectángulos, los atributos como ovalos, las relaciones entre entidades mediante líneas.')
@@ -48,7 +52,7 @@
       .row.justify-content-center.mb-5
         .col-lg-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 12 
+            h5 Figura 13
             br
             span.fst-italic  Ejemplo MER
           img(src='@/assets/curso/temas/tema7/7.png', alt='La imagen muestra un ejemplo de un Modelo Entidad-Relación (MER). En el diagrama, se pueden identificar las entidades representadas como rectángulos, las relaciones entre las entidades mediante líneas y los atributos de las entidades dentro de los ovalos. ')

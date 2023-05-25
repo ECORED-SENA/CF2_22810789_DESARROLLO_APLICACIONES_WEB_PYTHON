@@ -15,17 +15,17 @@
     p.mb-5(data-aos='fade-right') Las tablas se dividen en los diferentes campos que convierten la información que suministra el usuario a través de los diversos canales de información. Se debe tener en cuenta que las tablas se conforman por atributos que, a su vez, permiten determinar:
     .bg-4.p-5.mn
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-4.mb-lg-0.mb-3
+        .col-lg-4.mb-lg-0.mb-3.col-md-8.col-10
           .tarjeta.rounded-3.bg-tema4__3.h-100.p-3
             .d-flex.justify-content-center.align-items-center
               img(src='@/assets/curso/temas/tema5/2.svg', alt='')
               p.fw-bold.mb-0.ms-3 El tipo de dato
-        .col-lg-4.mb-lg-0.mb-3
+        .col-lg-4.mb-lg-0.mb-3.col-md-8.col-10
           .tarjeta.rounded-3.bg-tema4__3.h-100.p-3
             .d-flex.justify-content-center.align-items-center
               img(src='@/assets/curso/temas/tema5/3.svg', alt='')
               p.fw-bold.mb-0.ms-3 La longitud
-        .col-lg-4
+        .col-lg-4.col-md-8.col-10
           .tarjeta.rounded-3.bg-tema4__3.h-100.p-3 
             .d-flex.justify-content-center.align-items-center
               img(src='@/assets/curso/temas/tema5/4.svg', alt='')
@@ -147,17 +147,17 @@
     p.mb-5(data-aos='fade-right')
       span.color-primario Dentro del modelo relacional, se pueden encontrar atributos multivaluados y también opcionales, observe:
     .row.justify-content-center.mb-5
-      .col-lg-4.mb-lg-0.mb-3
+      .col-lg-4.mb-lg-0.mb-3.col-md-8.col-10
         .tarjeta.bg-tema4__2.p-4.h-100
           img(src="../assets/curso/temas/tema5/19.svg", alt="tema4-4" style="width: 77px").mb-4
           h4 Atributo multivaluado
           p.mb-0 Atributos de una entidad que pueden tener más de un valor.
-      .col-lg-4.mb-lg-0.mb-3
+      .col-lg-4.mb-lg-0.mb-3.col-md-8.col-10
         .tarjeta.bg-tema4__2.p-4.h-100
           img(src="../assets/curso/temas/tema5/20.svg", alt="tema4-4" style="width: 77px").mb-4
           h4 Atributo optativo
           p.mb-0 Aquel que puede admitir valores nulos.
-      .col-lg-4.mb-lg-0.mb-3
+      .col-lg-4.mb-lg-0.mb-3.col-md-8.col-10
         .tarjeta.bg-tema4__2.p-4.h-100
           img(src="../assets/curso/temas/tema5/21.svg", alt="tema4-4" style="width: 77px").mb-4
           h4 Atributo identificador
