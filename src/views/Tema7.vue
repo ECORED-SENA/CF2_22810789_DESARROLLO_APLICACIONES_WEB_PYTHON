@@ -99,23 +99,23 @@
                 ul.lista-ul--color
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Especifique claves primarias para todas las entidades.
+                    p.mb-0 Especificar claves primarias para todas las entidades.
 
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Encuentre las relaciones entre diferentes entidades.
+                    p.mb-0 Encontrar las relaciones entre diferentes entidades.
 
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Encuentre todos los atributos para cada entidad.
+                    p.mb-0 Encontrar todos los atributos para cada entidad.
 
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Resuelva las relaciones de muchos a muchos.
+                    p.mb-0 Resolver las relaciones de muchos a muchos.
 
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Normalización.
+                    p.mb-0 Realizar proceso de normalización.
     .subtitulo.mb-5
       h3 Cardinalidad
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4

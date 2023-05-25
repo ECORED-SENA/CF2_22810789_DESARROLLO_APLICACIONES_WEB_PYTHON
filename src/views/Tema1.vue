@@ -65,7 +65,7 @@
         .col-lg-2.col-4(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/9.svg', alt='')
         .col-lg-10
           p.text-white.mb-0 Estos campos corresponden a los datos que se le solicitan al cliente y que luego pasan a ser parte de las filas del almacenamiento de la información en la base de datos. Esta debe contar con algo denominado llave primaria, la cual evita que un registro que se realizó previamente se pueda repetir en la base de datos, evitando así duplicidad de la información; para el caso de ejemplo, la llave primaria es PKID, que corresponde al número de identificación de la persona registrada. 
-    p.mb-5(data-aos='fade-right') Es importante que también tengamos en cuenta que las bases de datos están conformadas por tablas, las cuales requieren que cada una de sus columnas (llamadas campos) reciban un tipo de dato específico que se almacene en él.
+    p.mb-5(data-aos='fade-right') Es importante saber que las bases de datos están conformadas por tablas, las cuales requieren que cada una de sus columnas (llamadas campos) reciban un tipo de dato específico que se almacene en él.
       br
       br
       span.color-primario Los datos más conocidos y utilizados en los sistemas de bases de datos son los siguientes: 

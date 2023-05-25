@@ -185,7 +185,7 @@ export default {
       referencia:
         'Araneda, P. (2020). <em>Base de Datos. El Camino de los datos a la información.</em> Bookdown.',
       link:
-        'ttps://bookdown.org/paranedagarcia/database/modelamiento-de-datos.html',
+        'https://bookdown.org/paranedagarcia/database/modelamiento-de-datos.html',
     },
   ],
   creditos: [
