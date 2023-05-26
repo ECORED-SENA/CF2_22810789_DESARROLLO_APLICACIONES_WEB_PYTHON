@@ -202,13 +202,19 @@ export default {
           cargo: 'Líder del equipo',
           centro: 'Dirección General',
         },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo Desarrollo Curricular',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
       ],
     },
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Dulfran Antonio Montaño Montaño',
+          nombre: 'Dulfrán Antonio Montaño Montaño',
           cargo: 'Experto Temático',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
@@ -222,12 +228,7 @@ export default {
           cargo: 'Asesor Metodológico',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable Equipo Desarrollo Curricular',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
+
         {
           nombre: 'Darío González',
           cargo: 'Corrector de Estilo',
@@ -257,18 +258,6 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Zuleidy María Ruíz Torres ',
-          cargo: 'Validación audiovisual ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Camilo Andrés Bolaño Rey ',
-          cargo: 'Locución ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
           nombre: 'Wilson Andrés Arenales Cáceres ',
           cargo: 'Ilustración ',
           centro:
@@ -287,8 +276,8 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Luis Gabriel Urueta ',
-          cargo: 'Validación Contenido ',
+          nombre: 'Camilo Andrés Bolaño Rey ',
+          cargo: 'Locución ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
