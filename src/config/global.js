@@ -107,8 +107,13 @@ export default {
       },
       {
         icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/descargable.pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/22810789_CF02_DU.pdf',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar HTML',
+        download: 'downloads/material.zip',
       },
       {
         icono: 'far fa-registered',
