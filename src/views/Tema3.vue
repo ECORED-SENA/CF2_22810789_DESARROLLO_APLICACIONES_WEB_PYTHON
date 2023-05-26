@@ -34,7 +34,7 @@
 
                 br
                 br 
-                |En la consulta anterior, se percibe la aplicación de la sentencia SQL que permite recuperar el nombre y categoría de los productos registrados en la tabla llamada "tbl productos". En este caso, si el usuario requiere realizar dicho registro, este comando le permite solo recuperar estos datos de los registros de la base de datos.
+                |En la consulta anterior, se percibe la aplicación de la sentencia SQL que permite recuperar el nombre y categoría de los productos registrados en la tabla llamada "tbl_productos". En este caso, si el usuario requiere realizar dicho registro, este comando le permite solo recuperar estos datos de los registros de la base de datos.
             .col-md-5
               figure
                 img(src='@/assets/curso/temas/tema3/3.png', alt='Texto que describa la imagen')
