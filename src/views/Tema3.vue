@@ -40,7 +40,7 @@
                 img(src='@/assets/curso/temas/tema3/3.png', alt='Texto que describa la imagen')
           .row
             .col-md-7.mb-4.mb-md-0
-              h4 Mostrar el nombre, existencias, id, precio unidad de los productos que tienen como unidades en existencias entre 10 y 50 productos.
+              h4 Mostrar el nombre, existencias, id y precio unidad de los productos que tienen como unidades en existencias entre 10 y 50 productos.
               p #[span.fw-bold.fst-italic Select NombreProducto, IdProducto, PrecioUnidad from tbl_productos where UnidadesEnExistencia >= 10 and UnidadesEnExistencia <= 50]
                 br
                 br
@@ -66,7 +66,7 @@
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         .tarjeta.color-secundario.p-4
-          p.mb-0.text-white "Ahora bien, en este punto, se puede cuestionar: ¿estos comandos en qué aportan a los sistemas de información? Pues hay que entender que el sistema de información se encuentra compuesto por varios componentes, uno de ellos llamado #[em Front-End], que es toda la parte visual con la que interactúa el usuario; luego, existe un componente llamado #[em Back-End], el cual define cuál es la lógica que se debe implementar en el sistema para que este cumpla las operaciones que requiere el usuario que el sistema realice; es en esta última donde se codifican estos componentes.
+          p.mb-0.text-white Ahora bien, en este punto, se puede cuestionar¿estos comandos en qué aportan a los sistemas de información? Pues hay que entender que el sistema de información se encuentra compuesto por varios componentes, uno de ellos llamado #[em front-end], que es toda la parte visual con la que interactúa el usuario; luego, existe un componente llamado #[em back-end], el cual define cuál es la lógica que se debe implementar en el sistema para que este cumpla las operaciones que requiere el usuario que el sistema realice; es en esta última donde se codifican estos componentes.
       .col-lg-5: img(src='@/assets/curso/temas/tema3/7.png', alt='')
     p.mb-5(data-aos='fade-right') En pocas palabras, en el #[em back-end], existe una parte que permite la conexión con un sistema de bases de datos y recopila la información que solicita el usuario; este proceso es llevado a cabo a través de los comandos SQL. Dicho de otra forma, el usuario solicita la información interactuando con los componentes que el sistema tiene y luego este, al conectarse con la base de datos, solicita esta información a través de los comandos SQL, a la vez que estos devuelven al programa la información resultante solicitada por el usuario; siendo lo anterior, desde este punto de vista, relevante el estudio del lenguaje SQL, para poder comprender cómo la información llega desde el servidor de bases de datos a la pantalla del usuario mostrando la información que este requiere ver.
 

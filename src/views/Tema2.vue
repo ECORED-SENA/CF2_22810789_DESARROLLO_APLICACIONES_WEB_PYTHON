@@ -23,7 +23,7 @@
         .cajon-b.color-primario.arriba-derecha.p-3.mb-5
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-10
-              p.mb-0 Esta instrucción se utiliza para generar un nuevo registro dentro de la base de datos y es importante tener en cuenta que los registros son líneas completas de forma horizontal; es decir, el crecimiento que esta va a tener permite que los datos se lean de forma vertical; cada fila se genera y luego debe ser recorrida de manera vertical para la recuperación de los datos, como se observa en la figura. #[span.color-secundario Este es un ejemplo del uso del comando #[em insert] para crear un nuevo registro en la tabla de la base de datos:]
+              p.mb-0 Esta instrucción se utiliza para generar un nuevo registro dentro de la base de datos y es importante tener en cuenta que los registros son líneas completas de forma horizontal; es decir, el crecimiento que esta va a tener, permite que los datos se lean de forma vertical; cada fila se genera y luego debe ser recorrida de manera vertical para la recuperación de los datos, como se observa en la figura. #[span.color-secundario Este es un ejemplo del uso del comando #[em insert] para crear un nuevo registro en la tabla de la base de datos:]
             .col-2(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/2.svg', alt='' style="width: 100px")
       .row.justify-content-center.mb-5
         .col-lg-8

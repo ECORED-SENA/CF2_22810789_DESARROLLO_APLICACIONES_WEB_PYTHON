@@ -124,7 +124,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Manejo de sentencias SQL',
+      tema: '3. Manejo de sentencias SQL',
       referencia:
         'Chávez, J. (2016). <em>7 video consultas en phpMyAdmin con sql</em> [Video]. YouTube.',
       tipo: 'Video',
@@ -132,7 +132,7 @@ export default {
         'https://www.youtube.com/watch?v=fHU0lY3FqB0&ab_channel=J%C3%B3seLuisCh%C3%A1vezG%C3%B3mez',
     },
     {
-      tema: 'Modelo relacional',
+      tema: '6. Modelo relacional',
       referencia:
         'Coronado, D., Rodríguez, R., Tineo, L. y Carrasquel, S. (2018). Gestión de Datos Difusos: Atributos Tipo 2 y Tipo 3 en bases de datos relacionales. <em>Publicaciones en Ciencias y Tecnología</em>, 12(2), p. 83-95.',
       tipo: 'Artículo',
@@ -140,7 +140,7 @@ export default {
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_b4db22235526430295652b34b49ad6dd',
     },
     {
-      tema: 'Modelo relacional',
+      tema: '6. Modelo relacional',
       referencia:
         'Aragón, Y., González, C., Hernández, O. y Hernández, E. (2018). Herramienta para el aprendizaje de bases de datos relacionales. <em>Revista Cubana De Ciencias Informáticas</em>, 12(3), p. 163-176.',
       tipo: 'Artículo',
@@ -288,13 +288,13 @@ export default {
       autores: [
         {
           nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validación en plataforma LMS',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Luis Gabriel Urueta Álvarez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validación en plataforma LMS',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

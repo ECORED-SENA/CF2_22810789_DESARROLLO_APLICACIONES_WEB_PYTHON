@@ -100,21 +100,21 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema5/15.svg', alt='Texto que describa la imagen')
-      .tarjeta.p-3(x="40.7%" y="53%" numero="+" style="background-color: #CDE6FF ")
+      .tarjeta.p-3(x="41.7%" y="53%" numero="+" style="background-color: #CDE6FF ")
         .h5.mb-2 Dos entidades
         p Se tienen dos entidades: una llamada “Persona” y otra llamada “Sexo”.
           br
           |(Una débil y una fuerte) 
-      .tarjeta.p-3(x="29.7%" y="59.5%" numero="+" style="background-color: #CDE6FF ")
+      .tarjeta.p-3(x="29.7%" y="61.5%" numero="+" style="background-color: #CDE6FF ")
         .h5.mb-2 Persona
         p La representación de la entidad débil es  a través de un recuadro con doble línea.
-      .tarjeta.p-3(x="61%" y="63%" numero="+" style="background-color: #CDE6FF ")
+      .tarjeta.p-3(x="66%" y="63%" numero="+" style="background-color: #CDE6FF ")
         .h5.mb-2 Sexo
         p La entidad Sexo es una entidad fuerte, ya que carece de una llave foránea, es decir, no tiene dependencia de ninguna otra entidad o valor de entidad.
       .tarjeta.p-3(x="29.7%" y="87%" numero="+" style="background-color: #CDE6FF ")
         .h5.mb-2 Sexo_Persona
         p La entidad “Persona” tiene dependencia con la entidad “Sexo” a través del atributo Sexo_Persona, ya que la entidad “Sexo” le proporciona este dato a la entidad “Persona”, dependiendo de esta asignación para poder realizar este registro.
-      .tarjeta.p-3(x="65.7%" y="30%" numero="+" style="background-color: #CDE6FF ")
+      .tarjeta.p-3(x="65.7%" y="24%" numero="+" style="background-color: #CDE6FF ")
         .h5.mb-2 Codigo
         p (Igual que todos los demás que están en círculos) 
     .row.justify-content-center.mb-5

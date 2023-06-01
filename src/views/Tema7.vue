@@ -42,7 +42,7 @@
     .f7.p-5.mn.pb-2 
       p #[span.color-primario Los elementos básicos de MER] se presentan en un diagrama simple, que permite establecer en forma general un modelo de datos, tal como se ejemplifica en la imagen:
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura 12
+        h5 Figura 13
         br
         span.fst-italic Elementos básicos Diagrama Entidad  Relación.
       .row.justify-content-center.mb-5
@@ -52,7 +52,7 @@
       .row.justify-content-center.mb-5
         .col-lg-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 13
+            h5 Figura 14
             br
             span.fst-italic  Ejemplo MER
           img(src='@/assets/curso/temas/tema7/7.png', alt='La imagen muestra un ejemplo de un Modelo Entidad-Relación (MER). En el diagrama, se pueden identificar las entidades representadas como rectángulos, las relaciones entre las entidades mediante líneas y los atributos de las entidades dentro de los ovalos. ')
@@ -132,7 +132,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 14
+          h5 Figura 15
           br
           span.fst-italic Ejemplo Cardinalidad 
         img(src='@/assets/curso/temas/tema7/10.png', alt='La imagen muestra un ejemplo de cardinalidad en un diagrama entidad-relación, se pueden observar los símbolos de cardinalidad, como 1 y N, que indican una relación de uno a muchos. Esto significa que una instancia de una entidad se relaciona con varias instancias de la otra entidad. La cardinalidad es un aspecto importante en el diseño de bases de datos, ya que ayuda a definir las restricciones y las interrelaciones entre las entidades en un sistema.')
@@ -154,12 +154,12 @@
         .col-lg-3.mb-lg-0.mb-3
           .tarjeta.bg-tema4__2.p-4.h-100
             img(src="../assets/curso/temas/tema7/14.svg", alt="tema4-4" style="width: 77px").mb-4
-            p.mb-0 Un Libro es escrito por un solo un Autor (Cardinalidad mínima y máxima = 1) .
+            p.mb-0 Un Libro es escrito por solo un Autor (Cardinalidad mínima y máxima = 1) .
       p.mb-5(data-aos='fade-right') Otro ejemplo que se podría traer como práctica es el siguiente, donde se desea colocar la cardinalidad correcta, de acuerdo con el tipo de relación que se refleja dentro de la base de datos, y es posible observarlo en la figura siguiente:
       .row.justify-content-center.mb-5
         .col-lg-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 15 
+            h5 Figura 16 
             br
             span.fst-italic Ejemplo Cardinalidad
           img(src='@/assets/curso/temas/tema7/15.png', alt='La imagen muestra un ejemplo de cardinalidad en un diagrama entidad-relación, se pueden observar los símbolos de cardinalidad, como 1 y N, que indican una relación de uno a muchos. Esto significa que una instancia de una entidad se relaciona con varias instancias de la otra entidad. La cardinalidad es un aspecto importante en el diseño de bases de datos, ya que ayuda a definir las restricciones y las interrelaciones entre las entidades en un sistema.')
@@ -173,7 +173,7 @@
       .row.justify-content-center.mb-5
         .col-lg-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura  16 
+            h5 Figura  17
             br
             span.fst-italic Ejemplo Sistema de bases de datos
           img(src='@/assets/curso/temas/tema7/17.png', alt='La imagen muestra un ejemplo de un Sistema de Bases de Datos, también se visualizan las bases de datos, representadas como recuadros, que contienen las tablas y los registros que conforman el sistema.')
