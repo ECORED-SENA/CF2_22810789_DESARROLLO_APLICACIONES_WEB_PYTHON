@@ -198,13 +198,13 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal',
+          nombre: 'María Camila García Santamaria	 ',
           cargo: 'Líder del equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable Equipo Desarrollo Curricular',
+          cargo: 'Asesor metodológico y pedagógico ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -241,16 +241,16 @@ export default {
       autores: [
         {
           nombre: 'Yerson Fabian Zarate Saavedra',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
-        {
-          nombre: 'Emilsen Alfonso Bautista ',
-          cargo: 'Actividad didáctica',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        },
+        // {
+        //   nombre: 'Emilsen Alfonso Bautista ',
+        //   cargo: 'Actividad didáctica',
+        //   centro:
+        //     'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        // },
         {
           nombre: 'Camilo Andrés Bolaño Rey',
           cargo: 'Desarrollador Fullstack',
@@ -258,20 +258,26 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
           nombre: 'Wilson Andrés Arenales Cáceres ',
-          cargo: 'Ilustración ',
+          cargo: 'Storyboard e ilustración ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Mary Jeans Palacio Camacho ',
-          cargo: 'Producción audiovisual ',
+          cargo: 'Animador y Productor Multimedia  ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Carlos Eduardo Garavito Parada ',
-          cargo: 'Producción audiovisual ',
+          cargo: 'Animador y Productor Multimedia  ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -286,21 +292,21 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Validación en plataforma LMS',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
+        // {
+        //   nombre: 'Zuleidy María Ruíz Torres',
+        //   cargo: 'Validación en plataforma LMS',
+        //   centro:
+        //     'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        // },
         {
           nombre: 'Luis Gabriel Urueta Álvarez',
-          cargo: 'Validación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
