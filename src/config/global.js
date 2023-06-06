@@ -198,13 +198,13 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'María Camila García Santamaria	 ',
-          cargo: 'Líder del equipo',
+          nombre: 'Claudia Patricia Aristizábal ',
+          cargo: 'Líder del Ecosistema ',
           centro: 'Dirección General',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor metodológico y pedagógico ',
+          cargo: 'Responsable de Línea de Producción',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -258,12 +258,6 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
           nombre: 'Wilson Andrés Arenales Cáceres ',
           cargo: 'Storyboard e ilustración ',
           centro:
@@ -292,12 +286,12 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        // {
-        //   nombre: 'Zuleidy María Ruíz Torres',
-        //   cargo: 'Validación en plataforma LMS',
-        //   centro:
-        //     'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        // },
+        {
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
         {
           nombre: 'Luis Gabriel Urueta Álvarez',
           cargo: 'Validador de Recursos Educativos Digitales ',
