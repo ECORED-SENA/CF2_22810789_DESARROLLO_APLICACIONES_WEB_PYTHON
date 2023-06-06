@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91.352" height="110.76" viewBox="0 0 91.352 110.76">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_344490" data-name="Rectángulo 344490" width="91.352" height="110.76" transform="translate(-38.352 22.24)" fill="#221b6b" opacity="0.17"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_109" data-name="Enmascarar grupo 109" transform="translate(38.352 -22.24)" clip-path="url(#clip-path)">
+    <path id="Trazado_151731" data-name="Trazado 151731" d="M45.68,19.234A26.446,26.446,0,1,1,19.234,45.68,26.476,26.476,0,0,1,45.68,19.234M45.68,0a45.68,45.68,0,1,0,45.68,45.68A45.68,45.68,0,0,0,45.68,0Z" transform="translate(-38.352 122.736) rotate(-90)" fill="#64b2ff"/>
+    <g id="Grupo_960271" data-name="Grupo 960271" transform="translate(47.473 22.24) rotate(90)">
+      <g id="Grupo_960270" data-name="Grupo 960270">
+        <line id="Línea_270" data-name="Línea 270" y1="33.503" x2="33.503" transform="translate(20.378)" fill="none" stroke="#362b9e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+        <line id="Línea_271" data-name="Línea 271" y1="30.029" x2="30.029" transform="translate(75.804 20.534)" fill="none" stroke="#362b9e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+        <line id="Línea_272" data-name="Línea 272" y1="30.029" x2="30.03" transform="translate(3.925 10.439)" fill="none" stroke="#362b9e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+        <path id="Trazado_656651" data-name="Trazado 656651" d="M10.6,5.3A5.3,5.3,0,1,1,5.3,0a5.3,5.3,0,0,1,5.3,5.3" transform="translate(39.727 22.91)" fill="#221b6b"/>
+        <path id="Trazado_656652" data-name="Trazado 656652" d="M.454,20.349C.821,20.227,14.675,6.221,19.975.855a2.878,2.878,0,1,1,4.082,4.059L19.7,9.27a1.444,1.444,0,0,0,2.042,2.042L23.558,9.5a3.155,3.155,0,1,1,4.462,4.462,1.336,1.336,0,0,0,0,1.891l5.1,5.1H0" transform="translate(35.389 30.691)" fill="#221b6b"/>
+        <line id="Línea_274" data-name="Línea 274" y1="37.501" x2="37.501" transform="translate(0 41.892)" fill="none" stroke="#362b9e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+        <path id="Trazado_736107" data-name="Trazado 736107" d="M4.041,2.02A2.02,2.02,0,1,1,2.02,0a2.02,2.02,0,0,1,2.02,2.02" transform="translate(77.11 28.212)" fill="#221b6b"/>
+      </g>
+    </g>
+  </g>
+</svg>

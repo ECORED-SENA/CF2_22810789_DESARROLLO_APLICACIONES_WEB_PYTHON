@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66.216" height="66.216" viewBox="0 0 66.216 66.216">
+  <g id="Grupo_1021171" data-name="Grupo 1021171" transform="translate(-448 -2253)">
+    <path id="Trazado_734791" data-name="Trazado 734791" d="M33.108,0A33.108,33.108,0,1,1,0,33.108,33.108,33.108,0,0,1,33.108,0Z" transform="translate(448 2253)" fill="#362b9e"/>
+    <g id="XMLID_643_" transform="translate(458.177 2208.888)">
+      <g id="XMLID_663_" transform="translate(0 65.299)">
+        <path id="XMLID_664_" d="M0,120v23.843H20.532l1.545-11.922L20.532,120Z" transform="translate(0 -120)" fill="#fd6930"/>
+        <path id="XMLID_665_" d="M257.006,120H232.5v23.843h24.506Z" transform="translate(-211.968 -120)" fill="#fd5426"/>
+      </g>
+      <g id="XMLID_659_" transform="translate(2.649 67.948)">
+        <path id="XMLID_661_" d="M30,150v18.545H47.883l.883-9.272L47.883,150Z" transform="translate(-30 -150)" fill="#fff5f5"/>
+        <path id="XMLID_660_" d="M232.5,150h21.857v18.545H232.5Z" transform="translate(-214.617 -150)" fill="#e1ebf0"/>
+      </g>
+      <g id="XMLID_653_" transform="translate(6.623 70.597)">
+        <path id="XMLID_656_" d="M80.3,190.6V180H75v2.649h2.649V190.6H75v2.649h7.948V190.6Z" transform="translate(-75 -180)" fill="#293e65"/>
+        <g id="XMLID_654_" transform="translate(19.87 0)">
+          <path id="XMLID_655_" d="M306.623,193.246H300V190.6h3.974v-2.649h-2.649V185.3h2.649v-2.649H300V180h6.623Z" transform="translate(-300 -180)" fill="#182a4c"/>
+        </g>
+      </g>
+      <path id="XMLID_648_" d="M382.948,62.649V60H375v2.649h2.649V91.791H375v2.649h7.948V91.791H380.3V62.649Z" transform="translate(-341.884)" fill="#ffb454"/>
+      <path id="XMLID_652_" d="M195,180v2.649h3.312l.883-1.325L198.312,180Z" transform="translate(-177.78 -109.403)" fill="#293e65"/>
+      <path id="XMLID_649_" d="M197.649,242.649h.662l1.06-1.325L198.312,240H195v7.948h3.312l.883-1.325-.883-1.325h-.662Z" transform="translate(-177.78 -164.104)" fill="#293e65"/>
+      <g id="Grupo_1021190" data-name="Grupo 1021190" transform="translate(20.532 70.597)">
+        <path id="XMLID_651_" d="M232.5,300h3.312v2.649H232.5Z" transform="translate(-232.5 -289.403)" fill="#182a4c"/>
+        <path id="XMLID_650_" d="M235.812,187.948V180H232.5v2.649h.662V185.3H232.5v2.649Z" transform="translate(-232.5 -180)" fill="#182a4c"/>
+      </g>
+    </g>
+  </g>
+</svg>

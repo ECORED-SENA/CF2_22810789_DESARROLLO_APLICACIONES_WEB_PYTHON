@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76.999" height="76.999" viewBox="0 0 76.999 76.999">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.078" y1="0.193" x2="0.766" y2="0.877" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="carta-a_2_" data-name="carta-a (2)" transform="translate(-6.365 -5.573)">
+    <path id="Trazado_741666" data-name="Trazado 741666" d="M38.5,0A38.5,38.5,0,1,1,0,38.5,38.5,38.5,0,0,1,38.5,0Z" transform="translate(6.365 5.573)" fill="#362b9e"/>
+    <path id="Trazado_741664" data-name="Trazado 741664" d="M174.731,156.138l-31.35-31.35H132.559l-15.786,40.185,18.032,18.033c1.1.1,2.213.146,3.337.146A38.288,38.288,0,0,0,174.731,156.138Z" transform="translate(-93.506 -100.582)" opacity="0.49" fill="url(#linear-gradient)"/>
+    <path id="Trazado_741665" data-name="Trazado 741665" d="M145.106,158.45H130.862l-2.226,6.527H116.772l15.786-40.185H143.38l16.132,40.185H147.32Zm-7.144-21.116-4.4,12.452H142.4Z" transform="translate(-93.505 -100.584)" fill="#fff"/>
+  </g>
+</svg>
